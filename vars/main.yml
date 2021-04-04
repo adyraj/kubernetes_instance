@@ -1,0 +1,14 @@
+---
+# vars file for kubernetes.instance
+aws_region: ap-south-1
+aws_ami: ami-08f63db601b82ff5f
+aws_instance_type: t2.micro
+subnet_id: subnet-00566450d0ea4c288
+security_group_id: sg-7a400518
+key: ansible-key
+name:
+  - K8S_Master 
+  - K8S_Worker1
+  - K8S_Worker2
+access_key: AXXXXXXXXXXXXXX
+secret_key: XXXXXXXXXXXXXXXXXXX
